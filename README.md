@@ -1,9 +1,6 @@
 # LearnBTC
 Compilation of files that help me learn the bitcoin protocol
+Yeah bruh.
 
 
-
-#Big header?
-##smaller header?
-###smallest?
 
