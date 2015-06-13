@@ -26,7 +26,11 @@ Now build the client:
 
 ##Starting up
 Upon starting your client you will need to set a user name and password. Copy whatever they suggest to ~/.bitcoin/bitcoin.conf
-
+    
+    bitcoind 	(starts your client)
+    
+    #Now you should receive the message about rpc username and password
     echo 'copied text' > ~/.bitcoin/bitcoin.conf
 
+	asdasfa
 
