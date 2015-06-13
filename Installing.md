@@ -1,5 +1,7 @@
 #Installing the Bitcoin client and basic commands
 
+##Downloading and Installing
+
     git clone github..... (you know where that is)
     git tag
 
@@ -7,18 +9,18 @@ Now choose your version of the client. (Note: the versions with suffix rc are RE
 
 In order to pick your favorite version:
 
-    git checkout v0.9......
+    git checkout v0.9.....
 
 Now build the client:
 
     ./autogen.sh
-    ./configure  //(There are a ton of options here. Maybe figure out what they mean?)
-    //(Use ./configure --with-incompatible-bdb if you get the Berkley error)
+    ./configure  (There are a ton of options here. Maybe figure out what they mean?)
+    (Use ./configure --with-incompatible-bdb if you get the Berkley error)
 
     make
     sudo make install
     
-    which bitcoind
+    which bitcoind	These commands will show you the location of the client. (Default: /usr/local/bin/)
     which bitcoin-cli
 
 
